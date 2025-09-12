@@ -23,12 +23,10 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/timeblocks")
-@CrossOrigin(origins = {
-    "http://localhost:3000", 
-    "http://localhost:5173", 
-    "https://2362857-team3-bucket.s3-website-us-west-2.amazonaws.com",
-    "https://2362857-team3-bucket-main.s3-website-us-west-2.amazonaws.com"
-})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173", 
+        "https://2362857-team3-bucket.s3-website-us-west-2.amazonaws.com", 
+        "https://2362857-team3-bucket-main.s3-website-us-west-2.amazonaws.com", "http://2362857-team3-bucket.s3-website-us-west-2.amazonaws.com", 
+        "http://2362857-team3-bucket-main.s3-website-us-west-2.amazonaws.com"})
 @Tag(name = "TimeBlock", description = "API for managing personal time blocks")
 @Validated
 public class TimeBlockController {
