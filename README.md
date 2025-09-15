@@ -195,7 +195,7 @@ The `buildspec.yml` file is configured for AWS CodeBuild:
 mvn test
 ```
 
-## JUnit Tests
+### JUnit Tests
 
 <img width="621" height="582" alt="image" src="https://github.com/user-attachments/assets/6934643b-5ab8-47d8-94bb-cf7fe2597a64" />
 
